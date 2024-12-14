@@ -3,8 +3,8 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - develop:
-      - featureX:
+      - develop
+      - featureX
 
 jobs:
   build:
