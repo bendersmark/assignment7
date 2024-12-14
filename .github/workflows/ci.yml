@@ -5,6 +5,7 @@ on:
     branches:
       - develop
       - featureX
+      - featureY
 
 jobs:
   build:
