@@ -1,0 +1,18 @@
+name: CI Pipeline
+
+on:
+  push:
+    - develop:
+    - featureX:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test Code
+      uses: actions/checkout@v2
+
+    - name: Set Up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
